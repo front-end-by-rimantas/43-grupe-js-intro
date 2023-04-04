@@ -1,6 +1,6 @@
 console.clear();
 /*
-ARRAY - sąrašas, listas, masyvas, matrica, ...
+ARRAY - sąrašas, listas, masyvas, matrica, arėjus, ...
 
 Array nariu kiekis: array.length, [].length
 Tipine klaida -> [].lenght <- HT
@@ -77,3 +77,10 @@ const index = 4;
 const asmuo = skolininkai[index - 1];
 const skola = skolos[index - 1];
 console.log(`${index}) ${asmuo} - ${skola}`);
+
+console.clear();
+
+const words = ['pirmas', 'antras', 'trecias'];
+
+const sentence = words[2] + ', ' + words[1] + ', ' + words[0];
+console.log(sentence);
