@@ -72,6 +72,7 @@ function hello(name) {
     return `Sveiki, mano vardas yra ${name}!`;
 }
 
+console.log(hello);
 console.log(hello());
 console.log(hello('Petras'));
 console.log(hello('Maryte', 'Jonas'));
