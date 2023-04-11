@@ -30,3 +30,31 @@ console.log(`${pirmas} * ${antras} = ${multi(pirmas, antras)}`);
 // galima nerasyti: ()
 const square = a => a * a;
 console.log(`${pirmas} ** 2 = ${square(pirmas)}`);
+
+console.log('--------------');
+
+const hi = () => 'Labas!';
+console.log(hi());
+
+const student = name => `Hi, my name is ${name}!`;
+console.log(student('Petras'));
+console.log(student('Maryte'));
+console.log(student('Eminem'));
+
+
+console.log('--------------------');
+
+
+function example() {
+    return 'Example';
+}
+
+console.log(example());
+console.log(example());
+
+
+
+const sample = letter => `This is your sample: ${letter}`;
+
+console.log(sample('A'));
+console.log(sample('B'));
